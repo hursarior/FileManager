@@ -24,7 +24,7 @@ public class FileEntity {
 
     private String type;
 
-    @Lob
+    @Column(columnDefinition = "MEDIUMBLOB")
     private byte[] data;
 
 }
